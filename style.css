@@ -1,9 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
-section{
+.top-banner{
     display: flex;
-    padding-left: 2%;
+    margin-bottom: 50px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 35px;
@@ -20,8 +23,14 @@ a{
 }
 .half-width{
     width: 50%;
-    
+    padding-left: 5%;
 }
 .half-width img{
     width: 90%;
+}
+.mid-banner{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
